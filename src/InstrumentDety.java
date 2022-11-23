@@ -11,7 +11,13 @@ public class InstrumentDety extends Instrument {
 
     public InstrumentDety(String nazwa, int lt){
         super(nazwa);
-        this.lt = lt;
+        if(lt>0){
+            this.lt = lt;
+        }
+        else{
+            this.lt = 1;
+        }
+
     }
 
     public int getLt() {

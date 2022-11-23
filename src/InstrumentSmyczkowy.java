@@ -9,7 +9,12 @@ public class InstrumentSmyczkowy extends Instrument{
 
     InstrumentSmyczkowy(String nazwa, int ls){
         super(nazwa);
-        this.ls = ls;
+        if(ls>0){
+            this.ls = ls;
+        }
+        else{
+            this.ls = 1;
+        }
     }
 
 
