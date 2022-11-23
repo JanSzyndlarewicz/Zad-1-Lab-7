@@ -14,6 +14,14 @@ public class InstrumentDety extends Instrument {
         this.lt = lt;
     }
 
+    public int getLt() {
+        return lt;
+    }
+
+    public void setLt(int lt) {
+        this.lt = lt;
+    }
+
     @Override
     String wydajDzwiek() {
         return "Tra ta ta";
