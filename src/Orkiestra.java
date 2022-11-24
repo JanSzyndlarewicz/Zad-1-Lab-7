@@ -113,6 +113,9 @@ public class Orkiestra {
             n++;
         }
 
+        /*Muzyk x = new Muzyk("Maciek", "Zbyg", "000022", T);
+        System.out.println(x);*/
+
         do{
             menu();
             choice = scan.nextInt();
@@ -157,4 +160,7 @@ public class Orkiestra {
 
 
     }
+
+
+
 }

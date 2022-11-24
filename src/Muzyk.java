@@ -49,11 +49,14 @@ public class Muzyk {
     }
 
     public String toString(){
-        String tmp = null;
-        for(int i=0; i<getInstrumenty().length; i++){
-            tmp += instrumenty[i].getNazwa() + "\t";
+        String tmp = "";
+        int i = 0;
+
+        while(i<getInstrumenty().length && instrumenty[i]!=null){
+            tmp += instrumenty[i].getNazwa() + ";  ";
+            i++;
         }
 
-        return  getName() + " " + getSecond_name() + ", id: " + getId() + "instrumenty: " + tmp;
+        return  getName() + " " + getSecond_name() + ", id: " + getId() + ", instrumenty: " + tmp;
     }
 }
