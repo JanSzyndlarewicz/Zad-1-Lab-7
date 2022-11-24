@@ -77,6 +77,7 @@ public class Orkiestra {
         }
 
         System.out.println("Liczba instrumentów o nazwie kontrabas: " + count);
+
     }
 
     public static void menu(){
