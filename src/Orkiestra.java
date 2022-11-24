@@ -19,6 +19,7 @@ public class Orkiestra {
             i++;
             System.out.println();
         }
+
     }
 
     public static void findMax(Instrument T[]){
